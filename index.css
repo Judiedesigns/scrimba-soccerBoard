@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* layout */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #516BB3;
+    margin: 4rem auto;
+    color: #fff;
+    max-width: 580px ;
+    padding: 2.5rem;
+}
+
+.display-text{
+    background-color:#363135;
+    padding: 2rem;
+    border: 1px solid;
+    border-radius: 6px;
+}
+
+.plusContainer {
+    display: flex;
+    justify-content: start;
+    gap: 12px;
+    margin-top: 1rem;
+}
+
+/* typography */
+h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 52px;
+    line-height: 30px;
+    margin-block: 21px;
+    letter-spacing: -0.6px;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #F94F6D;
+}
+
+ button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #36313510;
+    border: 1px solid #DCE1F0;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    color: #F94F6D;
+    color: #fff;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+
+
+}
