@@ -1,5 +1,5 @@
 {
-  "name": "Scrim-s04k019",
+  "name": "scrimba-soccerBoard",
   "description": "https://scrimba.com/learn-javascript-c0v/~018/s0qjrghrlh/head",
   "scripts": {
     "start": "vite",
@@ -12,3 +12,5 @@
   },
   "devDependencies": {}
  }
+
+ 

@@ -1,54 +1,53 @@
+
 let score = 0
 let scoreTwo = 0
 
 let displayScore = document.getElementById('textDisplay');
-    displayScore.innerText = 0
-
-let displayScoreTwo = document.getElementById('textDisplayTwo')
 displayScore.innerText = 0
 
-function addOne(){
+let displayScoreTwo = document.getElementById('textDisplayTwo')
+displayScoreTwo.innerText = 0
+
+// Add window. before each function to make them global
+window.addOne = function(){
     score = score + 1
     displayScore.innerText = score;
     console.log('clicked add-one')
 }
 
-function addTwo() {
+window.addTwo = function() {
     score += 2
     displayScore.innerText = score;
     console.log('please')
 }
 
-function addThree() {
+window.addThree = function() {
     score += 3
-    displayScore.innerText =score;
-
+    displayScore.innerText = score;
 }
 
-function reset() {
-score = 0
-displayScore.innerText = score
+window.reset = function() {
+    score = 0
+    displayScore.innerText = score
 }
 
-
-function one() {
-scoreTwo += 1
-displayScoreTwo.innerText= scoreTwo
+window.one = function() {
+    scoreTwo += 1
+    displayScoreTwo.innerText = scoreTwo
     console.log('see')
-
 }
 
-function two() {
-    scoreTwo +=2
-    displayScoreTwo.textContent=scoreTwo
+window.two = function() {
+    scoreTwo += 2
+    displayScoreTwo.textContent = scoreTwo
 }
 
-function three() {
+window.three = function() {
     scoreTwo += 3
     displayScoreTwo.textContent = scoreTwo
 }
 
-function reset2() {
+window.reset2 = function() {
     scoreTwo = 0
-    displayScoreTwo.innerText =scoreTwo
+    displayScoreTwo.innerText = scoreTwo
 }
